@@ -113,7 +113,6 @@ nnoremap <leader>w <C-w>v<C-w>l
 nnoremap <leader>s :!bundle exec rspec --color %<cr>
 nnoremap <leader>l :exe '!bundle exec rspec --color %:'.line('.')<cr>
 nnoremap <leader>t :call ToggleSyntax()<CR>
-inoremap <tab> <c-r>=Smart_TabComplete()<CR>
 nnoremap <silent> <Leader>rts :call TrimWhiteSpace()<CR>
 
 function! TrimWhiteSpace()
