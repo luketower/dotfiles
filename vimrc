@@ -94,6 +94,7 @@ nnoremap <leader><space> :noh<cr>
 nnoremap / /\v
 vnoremap / /\v
 inoremap jj <ESC>
+inoremap jk <ESC>
 inoremap <C-d> <Del>
 nnoremap ; :
 nmap <silent> <leader><CR> i<CR><ESC>
@@ -133,7 +134,9 @@ function! ToggleSyntax()
 endfunction
 
 autocmd BufWritePre * call Save()
-au VimEnter * RainbowParenthesesToggle
-au Syntax * RainbowParenthesesLoadRound
-au Syntax * RainbowParenthesesLoadSquare
-au Syntax * RainbowParenthesesLoadBraces
+if exists(':RainbowParenthesesToggle')
+  au VimEnter * RainbowParenthesesToggle
+  au Syntax * RainbowParenthesesLoadRound
+  au Syntax * RainbowParenthesesLoadSquare
+  au Syntax * RainbowParenthesesLoadBraces
+endif
