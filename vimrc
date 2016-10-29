@@ -47,6 +47,8 @@ set mouse=a
 set shell=bash
 set tags+=gem-tags
 let mapleader=","
+let g:netrw_winsize = 25
+let g:netrw_browse_split = 4
 iabbrev bpry require 'pry'; binding.pry;
 
 " --------- Vim files ---------
