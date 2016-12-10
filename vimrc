@@ -7,6 +7,7 @@ filetype plugin indent on
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 let g:ctrlp_custom_ignore = '\vnode_modules'
+let g:ctrlp_custom_ignore = '\velm-stuff'
 " ignore files in .gitignore
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 
@@ -78,6 +79,9 @@ let @k = "^dwxxwxwr=$xx"
 " ----------- Go ---------------
 au FileType go nmap <leader>r <Plug>(go-run)
 au FileType go set tabstop=8 shiftwidth=8 softtabstop=8
+
+" ----------- Elm --------------
+au FileType elm set tabstop=4 shiftwidth=4 softtabstop=4
 
 " ------------ C ---------------
 au FileType c set tabstop=4 shiftwidth=4 softtabstop=4
