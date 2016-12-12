@@ -51,6 +51,7 @@ let mapleader=","
 let g:netrw_winsize = 25
 let g:netrw_browse_split = 4
 iabbrev bpry require 'pry'; binding.pry;
+iabbrev destory destroy
 
 " --------- Vim files ---------
 " handle .un~ and .swp~ files
