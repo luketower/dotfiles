@@ -2,6 +2,7 @@ execute pathogen#infect()
 set t_Co=256
 syntax on
 filetype plugin indent on
+set background=light
 
 " --------- Ctrl-P ---------
 set runtimepath^=~/.vim/bundle/ctrlp.vim

@@ -24,5 +24,5 @@ alias gb="git branch"
 alias gd="git diff"
 alias gl="git log"
 
-# CLICOLOR=1
-# LSCOLORS=gxgxcxdxbxegedabagacad
+export CLICOLOR=1
+export LSCOLORS=gxgxcxdxbxegedabagacad
