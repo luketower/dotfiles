@@ -49,8 +49,12 @@ set mouse=a
 set shell=bash
 set tags+=gem-tags
 let mapleader=","
+" --------- File browsing -------------
 let g:netrw_winsize = 25
 let g:netrw_browse_split = 4
+let g:netrw_banner = 0
+let g:netrw_liststyle = 3
+
 iabbrev bpry require 'pry'; binding.pry;
 iabbrev destory destroy
 
@@ -95,7 +99,7 @@ au BufRead,BufNewFile *.md set filetype=markdown
 nnoremap E :%Eval<CR>
 nnoremap j gj
 nnoremap k gk
-nnoremap <leader>n :NERDTreeToggle<CR>
+nnoremap <leader>f :Vexplore<CR>
 nnoremap <leader>dt :!bundle show --paths \| xargs ctags -R -f gem-tags<cr>
 nnoremap <leader>pt :!ctags -R -f tags<cr>
 nnoremap <leader><space> :noh<cr>
