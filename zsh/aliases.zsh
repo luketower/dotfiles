@@ -24,5 +24,8 @@ alias gb="git branch"
 alias gd="git diff"
 alias gl="git log"
 
+### Typos
+alias rpsec="rspec"
+
 export CLICOLOR=1
 export LSCOLORS=gxgxcxdxbxegedabagacad

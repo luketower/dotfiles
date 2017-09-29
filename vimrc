@@ -9,6 +9,7 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 let g:ctrlp_custom_ignore = '\vnode_modules'
 let g:ctrlp_custom_ignore = '\velm-stuff'
+
 " ignore files in .gitignore
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 
@@ -87,6 +88,7 @@ au FileType go nmap <leader>r <Plug>(go-run)
 au FileType go set tabstop=8 shiftwidth=8 softtabstop=8
 
 " ----------- Elm --------------
+nnoremap <leader>em :ElmMake<CR>
 au FileType elm set tabstop=4 shiftwidth=4 softtabstop=4
 
 " ------------ C ---------------
@@ -108,6 +110,9 @@ vnoremap / /\v
 inoremap jj <ESC>
 inoremap jk <ESC>
 inoremap <C-d> <Del>
+inoremap <C-a> <Home>
+inoremap <C-e> <End>
+inoremap <C-f> <Right>
 nnoremap ; :
 nmap <silent> <leader><CR> i<CR><ESC>
 nmap <silent> <leader>o o<ESC>
