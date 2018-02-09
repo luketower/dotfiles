@@ -97,6 +97,10 @@ au FileType c set tabstop=4 shiftwidth=4 softtabstop=4
 " --------- Markdown ---------------
 au BufRead,BufNewFile *.md set filetype=markdown
 
+" ----------- Vue --------------
+autocmd FileType vue syntax sync fromstart
+let g:vue_disable_pre_processors=1
+
 " Mappings --------------------------
 nnoremap E :%Eval<CR>
 nnoremap j gj
