@@ -15,6 +15,7 @@ alias books="cd ~/Dropbox/books/"
 
 ### Git Commands
 alias gc="git commit"
+alias gcan="git commit --amend --no-edit"
 alias gs="git status"
 alias ga="git add"
 alias gp="git push"
