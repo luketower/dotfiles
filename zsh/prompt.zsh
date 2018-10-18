@@ -8,7 +8,7 @@ git_branch() {
   else
     branch=" ("${ref#refs/heads/}") "
   fi
-  PROMPT="%{$fg_bold[cyan]%}%~%{$fg_bold[red]%}$branch%{$reset_color%}"$'\n'"λ "
+  PROMPT="%{$fg_bold[cyan]%}%~%{$fg_bold[green]%}$branch%{$reset_color%}"$'\n'"λ "
 }
 
 precmd() { git_branch }
