@@ -74,8 +74,11 @@ endif
 " fold
 hi Folded ctermbg=8a8a8a
 " search terms
-hi Search ctermbg=585858
-hi Search ctermfg=8a8a8a
+hi Search ctermbg=DarkRed
+hi Search ctermfg=Green
+" Not sure why this stopped working with Vim in Tmux
+" hi Search ctermbg=585858
+" hi Search ctermfg=8a8a8a
 
 " ---------- Rspec -------------
 " turn variable declaration into let statement in rpsec
