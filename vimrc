@@ -74,7 +74,7 @@ endif
 " fold
 hi Folded ctermbg=8a8a8a
 " search terms
-hi Search ctermbg=DarkRed
+hi Search ctermbg=LightGrey
 hi Search ctermfg=Green
 " Not sure why this stopped working with Vim in Tmux
 " hi Search ctermbg=585858
