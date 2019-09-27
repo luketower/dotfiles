@@ -88,16 +88,20 @@ let @k = "^dwxxwxwr=$xx"
 
 " ----------- Go ---------------
 au FileType go nmap <leader>r <Plug>(go-run)
-au FileType go set tabstop=8 shiftwidth=8 softtabstop=8
+au FileType go set tabstop=4 shiftwidth=4 softtabstop=4
 
 " ----------- Elm --------------
 nnoremap <leader>em :ElmMake<CR>
 au FileType elm set tabstop=4 shiftwidth=4 softtabstop=4
 
-" ------------ C ---------------
+" ----------- C/C++ ------------
 au FileType c set tabstop=4 shiftwidth=4 softtabstop=4
+au FileType cpp set tabstop=4 shiftwidth=4 softtabstop=4
 
-" --------- Markdown ---------------
+" ------- Objective-C++ --------
+au FileType objcpp set tabstop=4 shiftwidth=4 softtabstop=4
+
+" --------- Markdown -----------
 au BufRead,BufNewFile *.md set filetype=markdown
 
 " ----------- Vue --------------
