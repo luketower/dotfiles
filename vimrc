@@ -6,8 +6,7 @@ set background=light
 " --------- Ctrl-P ---------
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
-let g:ctrlp_custom_ignore = '\vnode_modules'
-let g:ctrlp_custom_ignore = '\velm-stuff'
+let g:ctrlp_custom_ignore = '\v(node_modules|elm-stuff)'
 
 " ignore files in .gitignore
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
