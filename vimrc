@@ -85,13 +85,13 @@ hi Search ctermfg=Green
 
 " ---------- Rspec -------------
 " turn variable declaration into let statement in rpsec
-let @l = "^ilet(:jkea)jkwr{A }jk"
+let @l = "^ilet(:jjea)jjwr{A }jj"
 " turn let statment in variable declaration in rspec
 let @k = "^dwxxwxwr=$xx"
 
 " ----------- Go ---------------
 au FileType go nmap <leader>r <Plug>(go-run)
-au FileType go set tabstop=4 shiftwidth=4 softtabstop=4
+au FileType go set tabstop=8 shiftwidth=8 softtabstop=8
 
 " ----------- Elm --------------
 nnoremap <leader>em :ElmMake<CR>
@@ -103,6 +103,9 @@ au FileType cpp set tabstop=4 shiftwidth=4 softtabstop=4
 
 " ------- Objective-C++ --------
 au FileType objcpp set tabstop=4 shiftwidth=4 softtabstop=4
+
+" ----------- SQL -----------
+au FileType sql set tabstop=4 shiftwidth=4 softtabstop=4
 
 " --------- Markdown -----------
 au BufRead,BufNewFile *.md set filetype=markdown
@@ -119,10 +122,7 @@ nnoremap <leader>f :Vexplore<CR>
 nnoremap <leader>dt :!bundle show --paths \| xargs ctags -R -f gem-tags<cr>
 nnoremap <leader>pt :!ctags -R -f tags<cr>
 nnoremap <leader><space> :noh<cr>
-nnoremap / /\v
-vnoremap / /\v
 inoremap jj <ESC>
-inoremap jk <ESC>
 inoremap <C-d> <Del>
 inoremap <C-a> <Home>
 inoremap <C-e> <End>
