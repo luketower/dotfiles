@@ -61,6 +61,7 @@ let g:netrw_liststyle = 3
 
 iabbrev bpry require 'pry'; binding.pry;
 iabbrev destory destroy
+iabbrev clog console.log('HERE');
 
 " --------- Vim files ---------
 " handle .un~ and .swp~ files
