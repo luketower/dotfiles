@@ -2,6 +2,7 @@ set t_Co=256
 syntax on
 filetype plugin indent on
 set background=light
+set re=0 "use new regex engine
 
 " --------- Ctrl-P ---------
 set runtimepath^=~/.vim/bundle/ctrlp.vim
