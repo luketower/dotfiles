@@ -6,5 +6,6 @@ path=(
   /usr/local/heroku/bin
   ~/bin
   /usr/local/bin/elixir
+  $HOME/.asdf/shims
   $path
 )
