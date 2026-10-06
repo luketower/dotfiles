@@ -1,12 +1,12 @@
 typeset -U path
 path=(
-  ~/gocode/bin
   /usr/local/bin
   /usr/local/sbin
-  /usr/local/heroku/bin
-  ~/bin
-  ~/.local/bin
   /usr/local/bin/elixir
+  $HOME/gocode/bin
+  $HOME/bin
+  $HOME/.local/bin
+  $HOME/.local/go/bin
   $HOME/.asdf/shims
   $path
 )
