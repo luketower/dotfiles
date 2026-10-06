@@ -10,8 +10,6 @@ alias lla="ls -la"
 
 ### Folder Navigation
 alias up="cd .."
-alias code="cd ~/Dropbox/code/"
-alias books="cd ~/Dropbox/books/"
 
 ### Git Commands
 alias gc="git commit"
@@ -27,6 +25,3 @@ alias gl="git log"
 
 ### Typos
 alias rpsec="rspec"
-
-export CLICOLOR=1
-export LSCOLORS=gxgxcxdxbxegedabagacad
