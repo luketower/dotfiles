@@ -1,0 +1,57 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "disable_ai": true,
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "git_panel": {
+    "dock": "left"
+  },
+  "edit_predictions": {
+    "provider": "zed",
+  },
+  "agent": {
+    "dock": "right",
+    "default_model": {
+      "effort": "high",
+      "enable_thinking": true,
+      "provider": "zed.dev",
+      "model": "claude-opus-4-6",
+    },
+  },
+  "project_panel": {
+    "dock": "right",
+  },
+  "vim_mode": true,
+  "ui_font_size": 14,
+  "buffer_font_size": 14,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "One Dark",
+  },
+  "experimental.theme_overrides": {
+    "editor.background": "#18181a",
+    "panel.background": "#18181a",
+    "editor.gutter.background": "#18181a",
+    "tab_bar.background": "#18181a",
+    "tab.active.background": "#18181a",
+    "tab.inactive.background": "#18181a",
+    "editor.active_line.background": "#18181a",
+    "background": "#18181a",
+    "terminal.background": "#18181a",
+  },
+  "file_types": {
+    "CSS": ["scsss"],
+  },
+}
